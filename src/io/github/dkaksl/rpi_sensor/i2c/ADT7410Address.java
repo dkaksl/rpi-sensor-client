@@ -11,7 +11,7 @@ package io.github.dkaksl.rpi_sensor.i2c;
  * @author Amani Kilumanga
  *
  */
-public enum ADT7410Register {
+public enum ADT7410Address {
 	B00(0x48),
 	B01(0x49),
 	B10(0x4A),
@@ -19,7 +19,7 @@ public enum ADT7410Register {
 
 	private final int address;
 
-	private ADT7410Register(int address) {
+	private ADT7410Address(int address) {
 		this.address = address;
 	}
 
