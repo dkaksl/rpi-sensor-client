@@ -16,6 +16,12 @@
 			<version>1.1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-core</artifactId>
+			<version>4.0.6</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -51,9 +57,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
 				<version>2.4.3</version>
-				<configuration>
-					<!-- put your configurations here -->
-				</configuration>
 				<executions>
 					<execution>
 						<phase>package</phase>
